@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap');
 
 
 *{
@@ -11,6 +11,9 @@ html,body{
     height: 100%;
     width: 100%;
 }
+.container-fluid{
+    padding: 2% 10%;
+}
 
 #title{
     background-color: #ff4c68;
@@ -18,6 +21,6 @@ html,body{
 
 h1{
     font-family:'Montserrat', sans-serif;
-    font-weight: 3em;
+    font-weight: 3rem;
     line-height: 1.5;
 }
