@@ -12,7 +12,6 @@
     />
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css" />
-
   </head>
 
   <body>
@@ -37,9 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#"
-                    >Home</a
-                  >
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About Us</a>
@@ -56,15 +53,26 @@
         </nav>
 
         <!-- Title -->
-        <div class="row">
+        <div class="row custom-height">
           <!-- on large 2 columns and rest full width -->
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button class="btn btn-space btn-lg btn-dark" type="button">Download</button>
-            <button class="btn btn-space btn-lg btn-outline-light" type="button">Download</button>
+            <button class="btn btn-space btn-lg btn-dark" type="button">
+              Download
+            </button>
+            <button
+              class="btn btn-space btn-lg btn-outline-light"
+              type="button"
+            >
+              Download
+            </button>
           </div>
           <div class="col-lg-6">
-            <img src="images/iphone6.png" alt="iphone-mockup" />
+            <img
+              class="title-image"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
           </div>
         </div>
       </div>
@@ -73,14 +81,22 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
+        <div class="feature-box col-lg-4">
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
 
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+        <div class="feature-box col-lg-4">
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials -->

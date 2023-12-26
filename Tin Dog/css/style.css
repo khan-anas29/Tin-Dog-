@@ -49,3 +49,28 @@ h1{
 .btn-space{
     margin: 0 10%;
 }
+
+/* Image */
+
+.title-image{
+    padding-top:10%;
+    padding-bottom: 0;
+    transform: rotate(30deg);
+    width: 40%;
+    height: 80%;
+}
+
+.custom-height{
+   overflow: hidden;
+    height: 500px;
+}
+
+/* Feature Section */
+#features{
+    padding: 2% 5%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
