@@ -108,3 +108,14 @@ h2{
     width: 15%;
     margin: 0 3%;
 }
+
+/* Pricing Section */
+
+#pricing{
+    padding: 2% 5%;
+}
+
+.pricing-card{
+    margin: 1% 0;
+    text-align: center;
+}
