@@ -26,6 +26,11 @@ h1{
     line-height: 1.5;
 }
 
+h2{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 1rem;
+}
+
 /* Navbar */
 
 .navbar-brand{
@@ -73,4 +78,33 @@ h1{
 .feature-box{
     text-align: center;
     padding: 5%;
+}
+
+
+/* Testimonials sections */
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 2% 5%;
+}
+
+.testimonial-img{
+    width: 5%;
+    border-radius: 50%;
+    margin: 1% 2%;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#press img{
+    width: 15%;
+    margin: 0 3%;
 }
