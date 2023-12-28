@@ -58,7 +58,7 @@ h2 {
 /* download buttons */
 
 .btn-space {
-    margin: 0 10%;
+    margin: 2% 10%;
 }
 
 /* Image */
@@ -121,4 +121,17 @@ h2 {
 .pricing-card {
     margin: 1% 0;
     text-align: center;
+}
+
+/* Media Queries  */
+
+@media (max-width:1000px) {
+    #title{
+        text-align: center;
+    }
+
+    .title-image img{
+        transform: rotate(0deg);
+        position: static;
+    }
 }
